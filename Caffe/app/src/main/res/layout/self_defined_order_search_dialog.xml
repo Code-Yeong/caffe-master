@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/self_defined_order_search_dialog_img"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:src="@drawable/search_white" />
+
+        <EditText
+            android:id="@+id/self_defined_order_search_dialog_search"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_toRightOf="@id/self_defined_order_search_dialog_img"
+            android:background="@null"
+            android:hint="输入编号或名称"
+            android:textColor="#fff">
+
+        </EditText>
+
+        <ImageView
+            android:id="@+id/self_defined_order_search_dialog_close"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            android:src="@drawable/delete" />
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/self_defined_order_search_dialog_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+</LinearLayout>

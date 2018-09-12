@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#c5cccccc"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:id="@+id/self_defined_list_item_detail_id_1"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="1" />
+
+        <TextView
+            android:id="@+id/self_defined_list_item_detail_name_1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/self_defined_list_item_detail_id_1"
+            android:gravity="center"
+            android:text="卡布奇诺" />
+
+
+        <TextView
+            android:id="@+id/self_defined_list_item_detail_note_1"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:text="加冰 打包" />
+
+        <TextView
+            android:id="@+id/self_defined_list_item_detail_count_1"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/self_defined_list_item_detail_note_1"
+            android:gravity="center|right"
+            android:text="2" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#fff" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:id="@+id/self_defined_list_item_detail_id_2"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="2" />
+
+        <TextView
+            android:id="@+id/self_defined_list_item_detail_name_2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/self_defined_list_item_detail_id_2"
+            android:gravity="center"
+            android:text="卡布奇诺" />
+
+
+        <TextView
+            android:id="@+id/self_defined_list_item_detail_note_2"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:text="加冰 打包" />
+
+        <TextView
+            android:id="@+id/self_defined_list_item_detail_count_2"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/self_defined_list_item_detail_note_2"
+            android:gravity="center|right"
+            android:text="2" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#fff" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:id="@+id/self_defined_list_item_detail_id_3"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="3" />
+
+        <TextView
+            android:id="@+id/self_defined_list_item_detail_name_3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/self_defined_list_item_detail_id_3"
+            android:gravity="center"
+            android:text="卡布奇诺" />
+
+
+        <TextView
+            android:id="@+id/self_defined_list_item_detail_note_3"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:text="加冰 打包" />
+
+        <TextView
+            android:id="@+id/self_defined_list_item_detail_count_3"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/self_defined_list_item_detail_note_3"
+            android:gravity="center|right"
+            android:text="2" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#fff" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:id="@+id/self_defined_list_item_detail_id_4"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="4" />
+
+        <TextView
+            android:id="@+id/self_defined_list_item_detail_name_4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/self_defined_list_item_detail_id_4"
+            android:gravity="center"
+            android:text="卡布奇诺" />
+
+        <TextView
+            android:id="@+id/self_defined_list_item_detail_note_4"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:text="加冰 打包" />
+
+        <TextView
+            android:id="@+id/self_defined_list_item_detail_count_4"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/self_defined_list_item_detail_note_4"
+            android:gravity="center|right"
+            android:text="2" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#fff" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:id="@+id/self_defined_list_item_detail_id_5"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="5" />
+
+        <TextView
+            android:id="@+id/self_defined_list_item_detail_name_5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/self_defined_list_item_detail_id_5"
+            android:gravity="center"
+            android:text="卡布奇诺" />
+
+
+        <TextView
+            android:id="@+id/self_defined_list_item_detail_note_5"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:text="加冰 打包" />
+
+        <TextView
+            android:id="@+id/self_defined_list_item_detail_count_5"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/self_defined_list_item_detail_note_5"
+            android:gravity="center|right"
+            android:text="2" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#fff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:text="删除订单"
+            android:textColor="#fff" />
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#fff" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:text="修改订单"
+            android:textColor="#fff" />
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#fff" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:text="完成订单"
+            android:textColor="#fff" />
+    </LinearLayout>
+</LinearLayout>

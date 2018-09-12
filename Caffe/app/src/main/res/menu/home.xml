@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home_menu"
+        android:orderInCategory="100"
+        android:title="菜单"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/home_statistic"
+        android:orderInCategory="100"
+        android:title="数据"
+        app:showAsAction="ifRoom" />
+</menu>

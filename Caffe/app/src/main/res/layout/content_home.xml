@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ccc"
+    android:orientation="vertical"
+    tools:context="com.vector.caffe.activity.HomeActivity"
+    tools:showIn="@layout/app_bar_home">
+
+
+    <ImageView
+        android:id="@+id/content_home_pic"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/home_pic"
+        android:fitsSystemWindows="true" />
+
+    <ListView
+        android:id="@+id/content_home_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:divider="#ccc"
+        android:dividerHeight="3dp">
+
+    </ListView>
+
+</LinearLayout>
